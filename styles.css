@@ -20,6 +20,8 @@ a {
 
 img {
   width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 a.logo {
@@ -75,6 +77,35 @@ h1 {
   border-radius: 2em;
   display: inline-block; /*In order to use margin here we need display: inline-block*/
   margin: 1em 0 2em;
+}
+
+/* Working with the testimonial */
+
+ul.testimonials {
+  margin-top: 3em;
+}
+
+ul.testimonials li {
+  background: white;
+  padding: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.09);
+}
+
+blockquote,
+blockquote p {
+  margin: 0;
+}
+
+footer {
+  font-weight: bold;
+  display: block;
+  margin-top: 1em;
+}
+
+blockquote p {
+  line-height: 1.4em;
 }
 
 /*
