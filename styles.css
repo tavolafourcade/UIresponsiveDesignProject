@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+a.logo {
+  color: #c500ff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  margin-top: 1em;
+}
+
+nav li {
+  margin-right: 0.5em;
+}
+
+nav li a {
+  color: black;
+  font-weight: bold;
+  padding: 0.3em 0.7em;
+  background-color: #e6e6e6;
+  border-radius: 1em;
+}
+
+.hero-left {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  width: 80%;
+  margin: 1.5em auto;
+}
+
+.hero-left p {
+  font-size: 1.5em;
+  width: 80%;
+  margin: 1em auto;
+}
+
+.hero-left .cta-btn {
+  background-color: #c500ff;
+  color: white;
+  padding: 1em 2em;
+  font-weight: bold;
+  border-radius: 2em;
+  display: inline-block; /*In order to use margin here we need display: inline-block*/
+  margin: 1em 0 2em;
+}
+
+/*
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/
